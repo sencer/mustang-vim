@@ -55,6 +55,10 @@ hi Todo       guifg=#000000 guibg=#e6ea50 gui=italic
 hi Search     guifg=#555555  guibg=#b1d631 ctermfg=0 ctermbg=148
 hi IncSearch  guifg=#d0ffc0  guibg=#000000 ctermfg=237 ctermbg=157
 
+hi FoldColumn guifg=#7e8aa2 guibg=#202020 gui=none ctermfg=253 ctermbg=235
+hi SignColumn guifg=#7e8aa2 guibg=#202020 gui=none ctermfg=253 ctermbg=235
+hi WildMenu   guibg=#b1d631 ctermbg=148
+
 hi DiffAdd    guifg=#b1d631 guibg=#202020 gui=none ctermfg=148 ctermbg=235
 hi DiffDelete guifg=#ff9800 guibg=#202020 gui=none ctermfg=208 ctermbg=235
 hi DiffChange guifg=#faf4c6 guibg=#202020 gui=none ctermfg=230 ctermbg=235
