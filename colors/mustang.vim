@@ -39,14 +39,14 @@ hi SpecialKey   guifg=#808080 guibg=#202020 gui=none ctermfg=244 ctermbg=236
 " Syntax highlighting
 hi Comment    guifg=#808080 gui=italic ctermfg=244
 hi Todo       guifg=#8f8f8f gui=italic ctermfg=245
-hi Boolean    guifg=#b1d631 gui=none ctermfg=148
+hi Boolean    guifg=#b1d631 gui=bold ctermfg=148 cterm=bold
 hi String     guifg=#b1d631 gui=italic ctermfg=148
 hi Identifier guifg=#b1d631 gui=none ctermfg=148
 hi Function   guifg=#ffffff gui=bold ctermfg=255
 hi Type       guifg=#7e8aa2 gui=none ctermfg=103
 hi Statement  guifg=#7e8aa2 gui=none ctermfg=103
-hi Keyword    guifg=#ff9800 gui=none ctermfg=208
-hi Constant   guifg=#ff9800 gui=none  ctermfg=208
+hi Keyword    guifg=#ff9800 gui=italic ctermfg=208
+hi Constant   guifg=#ff9800 gui=bold  ctermfg=208 cterm=bold
 hi Number     guifg=#ff9800 gui=none ctermfg=208
 hi Special    guifg=#ff9800 gui=none ctermfg=208
 hi PreProc    guifg=#faf4c6 gui=none ctermfg=230
