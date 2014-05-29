@@ -55,6 +55,11 @@ hi Todo       guifg=#000000 guibg=#e6ea50 gui=italic
 hi Search     guifg=#555555  guibg=#b1d631 ctermfg=0 ctermbg=148
 hi IncSearch  guifg=#d0ffc0  guibg=#000000 ctermfg=237 ctermbg=157
 
+hi DiffAdd    guifg=#b1d631 guibg=#202020 gui=none ctermfg=148 ctermbg=235
+hi DiffDelete guifg=#ff9800 guibg=#202020 gui=none ctermfg=208 ctermbg=235
+hi DiffChange guifg=#faf4c6 guibg=#202020 gui=none ctermfg=230 ctermbg=235
+hi DiffText   guibg=#faf4c6 guifg=#202020 gui=none ctermfg=230 ctermbg=235
+
 " Code-specific colors
 hi pythonOperator guifg=#7e8aa2 gui=none ctermfg=103
 
