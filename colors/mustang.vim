@@ -77,5 +77,5 @@ hi def link NERDTreeCloseable NERDTreeOpenable
 hi def link NERDTreeCWD String
 hi def link NERDTreePart String
 
-" let g:SignatureMarkTextHL = 'MatchParen'
-" let g:SignatureMarkerTextHL = 'MatchParen'
+let g:SignatureMarkTextHL = '"MatchParen"'
+let g:SignatureMarkerTextHL = '"MatchParen"'
