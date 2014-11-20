@@ -50,7 +50,9 @@ hi Constant   guifg=#ff9800 gui=bold  ctermfg=208 cterm=bold
 hi Number     guifg=#ff9800 gui=none ctermfg=208
 hi Special    guifg=#ff9800 gui=none ctermfg=208
 hi PreProc    guifg=#faf4c6 gui=none ctermfg=230
-hi Todo       guifg=#000000 guibg=#e6ea50 gui=italic
+hi Todo       guifg=#000000 guibg=#e6ea50 gui=italic ctermfg=192 cterm=bold
+hi WarningMsg guifg=#ffffff guibg=#c84646 gui=italic ctermfg=214 cterm=bold
+hi Error      guifg=#ffffff guibg=#aa0000 gui=italic ctermfg=124 cterm=bold
 
 hi Search     guifg=#555555  guibg=#b1d631 ctermfg=0 ctermbg=148
 hi IncSearch  guifg=#d0ffc0  guibg=#000000 ctermfg=237 ctermbg=157
