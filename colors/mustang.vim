@@ -31,9 +31,9 @@ hi CursorLineNr guifg=#959595 guibg=#202020 gui=none ctermfg=253 ctermbg=232
 hi StatusLine   guifg=#d3d3d5 guibg=#444444 gui=italic ctermfg=253 ctermbg=238 cterm=italic
 hi StatusLineNC guifg=#939395 guibg=#444444 gui=none ctermfg=246 ctermbg=238
 hi VertSplit    guifg=#444444 guibg=#444444 gui=none ctermfg=238 ctermbg=238
-hi Folded       guifg=#a0a8b0 guibg=#202020 gui=none ctermbg=4 ctermfg=248
+hi Folded       guifg=#a0a8b0 guibg=#202020 gui=none ctermbg=234 ctermfg=248
 hi Title        guifg=#f6f3e8 guibg=NONE	  gui=bold ctermfg=254 cterm=bold
-hi Visual       guifg=#faf4c6 guibg=#3c414c gui=none ctermfg=254 ctermbg=4
+hi Visual       guifg=#faf4c6 guibg=#3c414c gui=none ctermfg=254 ctermbg=59
 hi SpecialKey   guifg=#808080 guibg=#202020 gui=none ctermfg=244 ctermbg=236
 
 " Syntax highlighting
@@ -50,9 +50,9 @@ hi Constant   guifg=#ff9800 gui=bold  ctermfg=208 cterm=bold
 hi Number     guifg=#ff9800 gui=none ctermfg=208
 hi Special    guifg=#ff9800 gui=none ctermfg=208
 hi PreProc    guifg=#faf4c6 gui=none ctermfg=230
-hi Todo       guifg=#000000 guibg=#e6ea50 gui=italic ctermfg=192 cterm=bold
-hi WarningMsg guifg=#ffffff guibg=#c84646 gui=italic ctermfg=214 cterm=bold
-hi Error      guifg=#ffffff guibg=#aa0000 gui=italic ctermfg=124 cterm=bold
+hi Todo       guifg=#000000 guibg=#e6ea50 gui=italic ctermbg=234 ctermfg=192 cterm=bold
+hi WarningMsg guifg=#ffffff guibg=#c84646 gui=italic ctermbg=234 ctermfg=214 cterm=bold
+hi Error      guifg=#ffffff guibg=#aa0000 gui=italic ctermbg=234 ctermfg=124 cterm=bold
 
 hi Search     guifg=#555555  guibg=#b1d631 ctermfg=0 ctermbg=148
 hi IncSearch  guifg=#d0ffc0  guibg=#000000 ctermfg=237 ctermbg=157
@@ -64,7 +64,12 @@ hi WildMenu   guibg=#b1d631 ctermbg=148
 hi DiffAdd    guifg=#b1d631 guibg=#202020 gui=none ctermfg=148 ctermbg=235
 hi DiffDelete guifg=#ff9800 guibg=#202020 gui=none ctermfg=208 ctermbg=235
 hi DiffChange guifg=#faf4c6 guibg=#202020 gui=none ctermfg=230 ctermbg=235
-hi DiffText   guibg=#faf4c6 guifg=#202020 gui=none ctermfg=230 ctermbg=235
+hi DiffText   guibg=#5c88de guifg=#202020 gui=none ctermfg=68 ctermbg=235
+
+hi def link GitGutterAdd          DiffAdd
+hi def link GitGutterDelete       DiffDelete
+hi def link GitGutterChangeDelete DiffText
+hi def link GitGutterChange       DiffChange
 
 " Code-specific colors
 hi pythonOperator guifg=#7e8aa2 gui=none ctermfg=103
